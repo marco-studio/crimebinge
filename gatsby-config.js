@@ -1,21 +1,23 @@
 module.exports = {
   siteMetadata: {
-    title: ``,
-    description: ``,
-    author: ``,
-    twitter: ``,
-    instagram: ``,
-    facebook: ``,
+    title: `Crime Binge`,
+    description: `Longtime friends Sarah Harris and Morgan O’Brien sit down weekly to
+    explore all things true crime and murder, so grab your headphones
+    and binge with us!`,
+    author: `By Sarah Harris and Morgan O’Brien`,
+    twitter: `https://twitter.com/crimebinge`,
+    instagram: `https://www.instagram.com/crimebingepodcast/`,
+    facebook: `https://www.facebook.com/CrimeBingePodcasts`,
     youtube: ``,
-    apple: ``,
-    google: ``,
-    pocket: ``,
-    spotify: ``,
-    overcast: ``,
-    castbox: ``,
-    castro: `https://castro.fm/itunes/`,
+    apple: `https://podcasts.apple.com/podcast/id1466175152?ct=podlink&mt=2`,
+    google: `https://podcasts.google.com/?feed=aHR0cHM6Ly9hdWRpb2Jvb20uY29tL2NoYW5uZWxzLzQ5OTQ5MzAucnNz`,
+    pocket: `https://pca.st/itunes/1466175152`,
+    spotify: `https://open.spotify.com/show/5BmontgZDYCtnDLzne4dqY`,
+    overcast: `https://overcast.fm/itunes1466175152`,
+    castbox: `https://castbox.fm/vic/1466175152`,
+    castro: `https://castro.fm/itunes/1466175152`,
     podbean: ``,
-    beaker: ``,
+    beaker: `https://www.breaker.audio/shows?feed_url=https%3A%2F%2Faudioboom.com%2Fchannels%2F4994930.rss`,
     stitcher: ``
   },
   plugins: [
@@ -52,7 +54,7 @@ module.exports = {
         // url: `https://www.gatsbyjs.org/blog/rss.xml`,
         // url: `https://boysinthecave.com/feed/podcast/`,
         // url: `http://boysinthecave.libsyn.com/rss`,
-        url: `http://feeds.soundcloud.com/users/soundcloud:users:407560764/sounds.rss`,
+        url: `https://audioboom.com/channels/4994930.rss`,
         name: `GatsbyBlog`,
         // Optional
         // Read parser document: https://github.com/bobby-brennan/rss-parser#readme
